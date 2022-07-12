@@ -3,7 +3,7 @@
 Primero es necesario desplegar la imagen
 
 ```
-docker exec -it kafka /bin/sh
+docker-compose -f docker-compose.yml up -d
 ```
 
 Para acceder al Kafka Shell se emplea el siguiente comando:
